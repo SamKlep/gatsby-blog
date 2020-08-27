@@ -7,8 +7,9 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Welcome to my blog</h1>
-    <p>This is a place to document my progress as a web developer.</p>
+
+    <h1>Enjoy NASA's Image of the Day</h1>
+    <img src="https://apod.nasa.gov/apod/image/2008/ngc474MP1024.jpg"></img>
   </Layout>
 )
 
