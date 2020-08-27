@@ -1,8 +1,8 @@
 ---
 path: "/post-three"
 date: "2020-28-08"
-title: "My Third Gatsby Post"
+title: "Python, Django and Deno"
 author: "Samuel Klepper"
 ---
 
-This is my third blog post in Gataby.
+Python, Django and Deno.
