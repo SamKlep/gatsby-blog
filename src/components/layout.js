@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          <p>
+          <p className="text-center">
             <strong>Built</strong> with 💜 by
             <a href="https://github.com/samklep"> Samuel Klepper</a> ©{" "}
             {new Date().getFullYear()}

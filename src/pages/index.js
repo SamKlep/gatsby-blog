@@ -1,15 +1,19 @@
 import React from "react"
 
 import Layout from "../components/layout"
-
+import "bootstrap/dist/css/bootstrap.min.css"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
+    <br />
+    <br />
     <SEO title="Home" />
-
-    <h1>Enjoy NASA's Image of the Day</h1>
-    <img src="https://apod.nasa.gov/apod/image/2008/ngc474MP1024.jpg"></img>
+    <h1 className="text-center">Enjoy NASA's Image of the Day</h1>
+    <br />
+    <img src="https://apod.nasa.gov/apod/image/2008/ngc474MP.jpg" />
+    <br />
+    <br />
   </Layout>
 )
 

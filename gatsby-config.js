@@ -20,7 +20,7 @@ module.exports = {
 
 module.exports = {
   siteMetadata: {
-    title: `Samuel's Blog`,
+    title: `</Sam's Blog>`,
     description: `A personal blog to document web development learning and progress.`,
     author: `@gatsbyjs`,
   },

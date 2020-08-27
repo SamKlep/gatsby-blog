@@ -8,6 +8,8 @@ import { Link } from "gatsby"
 const BlogPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
+    <br />
+    <br />
     <h1>Latest Posts</h1>
     {data.allMarkdownRemark.edges.map(post => (
       <div key={post.node.id}>
@@ -24,6 +26,7 @@ const BlogPage = ({ data }) => (
         <hr />
       </div>
     ))}
+    <br />
   </Layout>
 )
 
