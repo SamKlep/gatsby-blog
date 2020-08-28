@@ -11,7 +11,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <h1 className="text-center">Enjoy NASA's Image of the Day</h1>
     <br />
-    <img src="https://apod.nasa.gov/apod/image/2008/ngc474MP.jpg" />
+    <img src="https://apod.nasa.gov/apod/image/2008/PIA22089OrionValley.jpg" />
     <br />
     <br />
   </Layout>
